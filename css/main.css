@@ -51,6 +51,7 @@ header {
    ======================================== */
 .description {
     padding: 10px;
+    text-align: justify;
 }
 
 .text-center {
@@ -207,6 +208,14 @@ main.site-main {}
 .services p {
     font-size: 1.2em;
     text-transform: uppercase;
+}
+
+.experience .img-thumbnail {
+    /* width: 100%; */
+}
+
+.img-thumbnail img {
+    width: 100%;
 }
 
 /* ======================================== 
