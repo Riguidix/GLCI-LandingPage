@@ -41,8 +41,7 @@ h6 {
     font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
-header,
-main {
+header {
     padding: 20px;
     margin: 20px;
 }
@@ -50,6 +49,10 @@ main {
 /* ======================================== 
     HELPER CLASSES 
    ======================================== */
+.description {
+    padding: 10px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -57,6 +60,14 @@ main {
 .active-item {
     background-color: var(--color-dark-white);
     height: 100%;
+}
+
+.show-section {
+    display: block;
+}
+
+.hide-section {
+    display: none;
 }
 
 .container {
@@ -184,7 +195,8 @@ main.site-main {}
 }
 
 .main-content {
-    background-color: var(--color-dark-white);
+    padding: 50px;
+    background-color: var(--color-white);
 }
 
 /* ======================================== 
