@@ -377,7 +377,7 @@
             </div>
           </section>
 
-          <section id="content-experiences" class="show-section">
+          <section id="content-experiences" class="hide-section">
             <h2>Experiencias</h2>
             <hr>
 
@@ -429,12 +429,36 @@
             </div>
           </section>
 
-          <section id="content-contact" class="hide-section">
+          <section id="content-contact" class="show-section">
             <h2>Contacto</h2>
             <hr>
 
             <div class="description">
+              <div class="wrapper">
+                <div class="map-location wrapper-1">
+                  <!-- Get the map on: https://www.embedgooglemap.net/en/#enter -->
+                  <div class="gmap_canvas">
+                    <iframe id="gmap_canvas"
+                      src="https://maps.google.com/maps?q=Grupo%20Legal%20Corporativo%20Internacional&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                      frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  </div>
+                </div>
 
+                <div class="contact-form wrapper-1">
+                  <form action="">
+                    <label for="email">Correo</label>
+                    <input class="wrapper-1" type="email" name="js-email" id="email" placeholder="Ingresa tu Correo"
+                      required>
+
+                    <label for="message">Mensaje</label>
+                    <textarea class="wrapper-1" name="js-message" id="message" cols="30" rows="10"
+                      placeholder="Ingresa tu Mensaje" required></textarea>
+
+                    <button class="submit" type="submit"><i class="fa fa-paper-plane"></i> Enviar</button>
+                    <button class="clean" type="reset"><i class="fa fa-trash"></i> Limpiar</button>
+                  </form>
+                </div>
+              </div>
             </div>
           </section>
         </div>
