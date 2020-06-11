@@ -199,6 +199,16 @@ main.site-main {}
     background-color: var(--color-white);
 }
 
+.services i {
+    font-size: 2em;
+    color: var(--color-red);
+}
+
+.services p {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
 /* ======================================== 
     FOOTER
 
