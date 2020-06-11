@@ -23,14 +23,25 @@
 
 html {}
 
-body {}
+body {
+    font-family: 'Karla', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
 
 /* ======================================== 
     HELPER CLASSES 
    ======================================== */
 .container {
-    width: 90%;
-    padding: 20px;
+    width: 80%;
+    margin: auto auto;
 }
 
 /* ======================================== 
