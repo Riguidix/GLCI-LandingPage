@@ -80,7 +80,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
 }
 
 .wrapper-1 {
@@ -211,7 +211,7 @@ main.site-main {}
 }
 
 .img-thumbnail img {
-    height: 100%;
+    width: 100%;
 }
 
 .map-location {
