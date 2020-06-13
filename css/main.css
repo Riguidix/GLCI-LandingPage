@@ -32,6 +32,10 @@ body {
     font-family: 'Karla', Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -250,4 +254,34 @@ main.site-main {}
     FOOTER
 
    ======================================== */
-footer.site-footer {}
+footer.site-footer {
+    color: var(--color-white);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer a {
+    color: var(--color-white);
+    font-size: 1.1em;
+    letter-spacing: 5px;
+    margin
+}
+
+.privacy {
+    margin-right: 15px;
+}
+
+.cookies {
+    margin-left: 15px;
+}
+
+footer a:hover {
+    font-size: 1.2em;
+    color: var(--color-dark-white);
+}
+
+.solide-link,
+.solide-link:visited {
+    color: var(--color-red);
+    font-size: 1.2em;
+}
