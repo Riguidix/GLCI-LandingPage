@@ -29,6 +29,7 @@
 
   <!-- ========== CSS ========== -->
   <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   <link rel="stylesheet" href="css/main.css">
 
   <!-- ========== FontAwesome Latest Version ========== -->
@@ -62,10 +63,10 @@
       <div class="navigation-bar">
         <div class="wrapper">
           <nav class="navbar wrapper-2 text-center">
-            <button class="nav-links">Acerca de</button>
-            <button class="nav-links">Servicios</button>
-            <button class="nav-links">Experiencias</button>
-            <button class="nav-links">Contacto</button>
+            <button id="js-button-about" class="nav-links" onclick="aboutButton();">Acerca de</button>
+            <button id="js-button-services" class="nav-links" onclick="servicesButton();">Servicios</button>
+            <button id="js-button-experiences" class="nav-links" onclick="experiencesButton();">Experiencias</button>
+            <button id="js-button-contact" class="nav-links" onclick="contactButton();">Contacto</button>
           </nav>
 
           <div class="socialbar wrapper-2 text-center">
@@ -88,7 +89,7 @@
 
       <div class="main-content">
         <div class="container">
-          <section id="content-about" class="hide-section">
+          <section id="content-about" class="show-section">
             <h2>Acerca de Grupo-Legal Corporativo Internacional S. C.</h2>
             <hr>
 
